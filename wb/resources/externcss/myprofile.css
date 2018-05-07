@@ -1,0 +1,147 @@
+			img 
+			{
+				float: left;
+				margin-right: 50px;
+			}
+
+			label
+			{
+				font-family: Georgia, serif;
+				color: #0140a5;
+			}
+
+			span
+			{
+				font-size: 20px;
+				font-family: "Gill Sans", sans-serif;
+			}
+
+			button
+			{
+				color: black;
+				font-size: 16px;
+				border: 2px solid #4CAF50;
+				border-radius: 12px;
+				background-color: white;
+				font-family: "Trebuchet MS", sans-serif;
+			}
+
+			button:hover 
+			{
+    			background-color: #4CAF50; 
+    			color: white;
+			}
+
+			p
+			{
+				font-family: Georgia, serif;
+				font-size: 16px;
+				font-style: italic;
+			}
+
+			a
+			{
+				color: inherit;
+				text-decoration: inherit;
+			}
+
+
+			/* The Modal (background) */
+			.modal 
+			{
+   					display: none; /* Hidden by default */
+    				position: fixed; /* Stay in place */
+    				z-index: 1; /* Sit on top */
+    				left: 0;
+    				top: 0;
+    				width: 100%; /* Full width */
+    				height: 100%; /* Full height */
+    				overflow: auto; /* Enable scroll if needed */
+    				background-color: rgba(0, 0, 0, 0.8);
+    				padding-top: 50px;
+			}
+
+			/* Modal Content/Box */
+			.modal-content 
+			{
+    				background-color: #fefefe;
+    				margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    				border: 1px solid #888;
+    				width: 50%; /* Could be more or less, depending on screen size */
+    				min-height: 190px;
+			}
+
+			/* The Close Button (x) */
+			.close 
+			{
+    				position: absolute;
+    				right: 35px;
+    				top: 15px;
+    				font-size: 40px;
+    				font-weight: bold;
+    				color: #f1f1f1;
+			}
+
+			.close:hover,
+			.close:focus 
+			{
+    				color: #f44336;
+    				cursor: pointer;
+			}
+
+			.container 
+			{
+    				padding: 16px;
+    				background-color: rgba(255, 255, 255, 0.3);
+			}
+
+			.modal button
+			{
+				width: 100px;
+				cursor: pointer;
+			}
+
+			.modal p
+			{
+				font-size: 14px;
+				margin-top: 0px;
+				margin-bottom: 30px;
+			}
+
+			.modal h1
+			{
+				margin-bottom: 5px;
+			}
+
+			a
+			{
+				display: inline-block;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-top: 0.5px;
+				padding-bottom: 0.5px;
+				color: black;
+				font-size: 16px;
+				border: 2px solid #4CAF50;
+				border-radius: 12px;
+				background-color: white;
+				font-style: normal;
+				font-family: "Trebuchet MS", sans-serif;
+			}
+
+			a:hover 
+			{
+    			background-color: #4CAF50; 
+    			color: white;
+			}
+
+			.modal a
+			{
+				padding-left: 35px;
+				padding-right: 35px;
+			}
+
+			#details
+			{
+				margin-left: 450px;
+			}

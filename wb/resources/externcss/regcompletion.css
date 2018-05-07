@@ -1,0 +1,127 @@
+			body
+			{
+					background-image: url(../bgimg/holud.jpg);
+					background-repeat: no-repeat;
+					background-size: cover;
+			}
+
+			h1
+			{
+				text-shadow: 0px 0px 1px red;
+				color: rgba(0, 0, 0, 0.3);
+			}
+			
+			.quicklinks
+			{
+					background-color: rgba(214,4,21,1);
+					height: 30px;
+			}
+
+			.quicklinks abbr
+			{
+					color: rgb(204,204,0);
+					cursor: pointer;
+			}
+
+			#footer
+			{
+					margin-top: 50px;
+					color: white;
+					font-family: "Trebuchet MS", sans-serif;
+					padding-top: 5px;
+			}
+
+			input[type=text], input[type=password], input[type=number], input[type=date], select, textarea
+			{
+    				width: 95%;
+    				padding: 15px;
+    				margin: 5px 0 22px 0;
+    				display: inline-block;
+    				border: none;
+    				background-color: rgba(255, 255, 255, 0.8);
+			}
+
+			input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=date]:focus, select:focus, textarea:focus 
+			{
+    				background-color: rgba(255, 246, 201, 0.5);
+    				outline: none;
+			}
+
+			hr 
+			{
+    				border: 1px solid #f1f1f1;
+    				margin-bottom: 25px;
+			}
+
+			/* Set a style for all buttons */
+			button 
+			{
+    				/*background-color: #4CAF50;*/
+    				background-color: rgba(255,0,0,0.6);
+					color: white;
+    				padding: 14px 20px;
+    				margin: 8px 0;
+    				border: none;
+    				cursor: pointer;
+    				width: 100%;
+    				opacity: 0.9;
+			}
+
+			button:hover 
+			{
+					background-color: rgba(255,0,0,0.9);
+					color: rgb(204,204,0);
+			}
+
+			/* Add padding to container elements */
+			.container 
+			{
+					margin-left: 270px;
+					margin-top: 30px;
+					width: 800px;
+    				padding: 16px;
+    				background-color: rgba(255, 255, 255, 0.3);
+    				font-family: "Georgia", serif;
+			}
+		
+			.container button:hover 
+			{
+					background-color: rgba(255,0,0,0.8);
+					color: rgb(204,204,0);
+			}
+			
+
+			#footer
+			{
+					color: white;
+					font-family: "Trebuchet MS", sans-serif;
+					padding-top: 5px;
+			}
+
+/* scroll down to see menu */
+#navbar 
+{
+  	background-color:rgb(255,0,0,0.6);
+ 	position: fixed;
+  	top: -150px;
+  	width: 300%;
+  	display:block;
+  	transition: top 0.3s;
+}
+
+#navbar a 
+{
+	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 15px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+#navbar a:hover 
+{
+  background-color: rgb(255,0,0,0.9);
+  color: rgb(204,204,0);
+}

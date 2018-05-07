@@ -1,0 +1,304 @@
+			body
+			{
+					background-image: url(../bgimg/holud.jpg);
+					background-repeat: no-repeat;
+					background-size: cover;
+					font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.quicklinks
+			{
+					background-color: rgba(214,4,21,1);
+					height: 30px;
+			}
+
+			.quicklinks abbr
+			{
+					color: rgb(204,204,0);
+					cursor: pointer;
+			}
+
+			.quicklinks a
+			{
+					display: inline-block;
+					float: right;
+					background-color: inherit;
+    				text-align: center;
+    				margin-top: 0px;
+    				margin-left: 5px;
+    				line-height: 30px;
+					width: 85px;
+    				height: 30px;
+	    			font-family: Georgia, serif;
+	    			color: rgba(255, 255, 255, 0.9);
+	    			text-decoration: none;
+	    			font-size: 14px;
+			}
+
+			.quicklinks a:hover 
+			{
+    				background-color: rgba(244, 66, 66, 0.5);
+					color:rgb(204,204,0);
+			}
+
+			.quicklinks span
+			{
+					float: left;
+					font-family: Georgia, serif;
+					color: rgba(255, 255, 255, 1);
+					line-height: 30px;
+					margin-left: 15px;
+					font-size: 15px;
+			}			
+			
+			* 
+			{
+    				box-sizing: border-box;
+			}
+			body 
+			{
+  					margin: 0;
+			}
+			/* Style the header */
+			.header 
+			{
+    				background-color: rgba(255,0,0,0.9);
+					height:150px;
+			}
+
+			#logo
+			{
+					margin-left: 220px;
+			}
+
+
+			/* Style the top navigation bar */
+			.topnav 
+			{
+    				overflow: hidden;
+	    			background-color: rgba(255,0,0,0.4);
+					height:50px;
+			}
+			/* Style the topnav links */
+			.topnav a 
+			{
+    				float: left;
+	    			display: block;
+    				color: #f2f2f2;
+    				text-align: center;
+    				padding: 14px 16px;
+	    			text-decoration: none;
+	    			font-family: "Georgia", serif;
+
+			}
+			/* Change color on hover */
+			.topnav a:hover 
+			{
+    				background-color: rgb(255,0,0,0.7);
+				opacity:1;
+    				color: rgb(204,204,0);
+			}
+
+			/* Side navigation bar */
+			#mySidenav a 
+			{
+    				position: absolute;
+    				left: -97px;
+    				top: 500px;
+    				transition: 0.3s;
+    				padding: 15px;
+    				width: 150px;
+    				text-decoration: none;
+    				font-size: 20px;
+    				color: white;
+    				border-radius: 0 5px 5px 0;
+			}
+
+			#mySidenav a:hover 
+			{
+    				left: 0;
+					color:rgb(204,204,0);
+					background-color: rgba(255,0,0,0.7);
+			}
+			
+			#termsofservice
+			{
+    				top: 650px;
+    				background-color: rgba(255,0,0,0.5);
+			}
+
+
+			/* Set a style for all buttons */
+			button 
+			{
+    				/*background-color: #4CAF50;*/
+    				background-color: rgba(255,0,0,0.8);
+					color: white;
+    				padding: 14px 20px;
+    				margin: 8px 0;
+    				border: none;
+    				cursor: pointer;
+    				width: 100%;
+    				opacity: 0.9;
+			}
+
+			button:hover 
+			{
+					background-color: rgba(255, 0, 0, 1);
+					color:rgb(204,255,0);
+			}
+
+
+			#footer
+			{
+					color: white;
+					font-family: "Trebuchet MS", sans-serif;
+					padding-top: 5px;
+					margin-top: 50px;
+			}
+
+			.heading
+			{
+					margin-left: 350px;
+					margin-right: 350px;
+					margin-top: 30px;
+					font-family: "Trebuchet MS", sans-serif;
+					font-size: 30px;
+					text-shadow: 0px 0px 1px red;
+					color: rgba(0, 0, 0, 0.3);
+					text-align: center;
+			}
+
+			table
+			{
+				border-collapse: collapse;
+				margin-top: 50px;
+			}
+
+			tr
+			{
+				border: 2px solid rgba(170, 0, 0, 0.9);
+			}
+
+			td
+			{
+				border-collapse: collapse;
+				padding-left: 30px;
+				padding-right: 20px;
+				padding-top: 5px;
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			.names a, .nrf
+			{
+				color: rgba(170, 0, 0, 0.8);
+				text-decoration: none;
+				text-transform: uppercase;
+				font-family: "Trebuchet MS", sans-serif;
+				font-size: 14px;
+				letter-spacing: 0.6em;
+			}
+
+			.names a:hover
+			{
+				text-decoration: underline;
+			}
+
+			.filters
+			{
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+
+			.filters button
+			{
+				width: 5%;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				border-radius: 15px;
+			}
+
+			.filterlabel
+			{
+				font-family: Georgia, serif;
+				font-size: 20px;
+				color: rgba(170, 0, 0, 1);
+			}
+
+			#agefilter
+			{
+				border: 2px solid rgba(170, 0, 0, 0.7);
+				border-radius:8px;
+				width: 85px;
+			}
+
+			#footerdiv
+			{
+				width: 100%;
+				position: sticky;
+				bottom: 0px;
+			}
+
+			#searchpanel
+			{
+				margin-top: 6px;
+				float: right;
+				margin-right: 20px;
+			}
+
+			#searchlabel
+			{
+				font-family: Georgia, serif;
+				font-size: 16px;
+				color: rgba(255, 255, 255, 0.8);				
+			}
+
+			#searchbox
+			{
+				border: 1px solid rgba(170, 0, 0, 0.7);
+				border-radius:4px;
+				width: 100px;
+			}
+
+			#searchbutton
+			{
+				background-color: red;
+				width: 70px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				border-radius: 10px;
+			}
+
+			#searchbutton:hover
+			{
+				background-color: rgba(255, 0, 0, 0.4);
+			}
+
+			#prospects
+			{
+				min-height: 200px;
+			}
+
+			#profilelink
+			{
+				width: auto;
+				padding-left: 3px;
+				padding-right: 3px;
+				color: rgba(255, 255, 255, 1);
+				font-size: 16px;
+			}
+
+			#profilelink:hover
+			{
+				color: rgb(204, 204, 0);
+			}
+
+			.nrf
+			{
+				color: rgba(170, 0, 0, 0.8);
+				text-transform: uppercase;
+				font-family: "Trebuchet MS", sans-serif;
+				font-size: 14px;
+				letter-spacing: 0.6em;
+				line-height: 10px;
+			}

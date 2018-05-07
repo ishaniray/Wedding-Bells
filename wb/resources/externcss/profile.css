@@ -1,0 +1,51 @@
+			img 
+			{
+				float: left;
+				margin-right: 50px;
+			}
+
+			label
+			{
+				font-family: Georgia, serif;
+				color: #0140a5;
+			}
+
+			span
+			{
+				font-size: 20px;
+				font-family: "Gill Sans", sans-serif;
+			}
+
+			a
+			{
+				display: inline-block;
+				padding-top: 0.5px;
+				padding-bottom: 0.5px;
+				padding-left: 6px;
+				padding-right: 6px;
+				color: black;
+				font-size: 16px;
+				border: 2px solid #4CAF50;
+				border-radius: 12px;
+				background-color: white;
+				text-decoration: none;
+				font-style: normal;
+			}
+
+			a:hover 
+			{
+    			background-color: #4CAF50; 
+    			color: white;
+			}
+
+			p
+			{
+				font-family: Georgia, serif;
+				font-size: 16px;
+				font-style: italic;
+			}
+
+			#details
+			{
+				margin-left: 450px;
+			}

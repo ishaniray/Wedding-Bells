@@ -1,0 +1,337 @@
+			body
+			{
+					background-image: url(../bgimg/holud.jpg);
+					background-repeat: no-repeat;
+					background-size: cover;
+					font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.maincontent
+			{
+				min-height: 200px;
+			}
+
+			.maincontent h1
+			{
+				font-family: Arial, sans-serif;
+				color: rgba(130, 0, 0, 0.6);
+				text-shadow: 0px 0px 1px red;
+				text-align: center;
+				margin-top: 150px;
+				margin-bottom: 10px;
+			}
+
+			.maincontent h3
+			{
+				font-family: Georgia, serif;
+				color: rgba(130, 0, 0, 0.6);
+				text-shadow: 0px 0px 1px red;
+				text-align: center;
+				margin-top: 0px;
+			}
+
+			.maincontent p
+			{
+				margin-top: 50px;
+				margin-left: 550px;
+				margin-bottom: 150px;
+				font-size: 20px;
+				font-family: "Trebuchet MS", sans-serif;
+				color: rgba(130, 0, 0, 1);
+				text-shadow: 10px 10px 50px red;
+				font-style: bold;
+				line-height: 2;
+				text-align: justify;
+			}
+
+			.quicklinks
+			{
+					background-color: rgba(214,4,21,1);
+					height: 30px;
+			}
+
+			.quicklinks abbr
+			{
+					color: rgb(204,204,0);
+					cursor: pointer;
+			}
+
+			.quicklinks a
+			{
+					display: inline-block;
+					float: right;
+					background-color: inherit;
+    				text-align: center;
+    				margin-top: 0px;
+    				margin-left: 5px;
+    				line-height: 30px;
+					width: 85px;
+    				height: 30px;
+	    			font-family: Georgia, serif;
+	    			color: rgba(255, 255, 255, 0.9);
+	    			text-decoration: none;
+	    			font-size: 14px;
+			}
+
+			.quicklinks a:hover 
+			{
+    				background-color: rgba(244, 66, 66, 0.5);
+					color:rgb(204,204,0);
+			}
+
+			.quicklinks button
+			{
+					float: right;
+					background-color: inherit;
+    				text-align: center;
+    				margin-top: 0px;
+    				margin-left: 5px;
+					width: 85px;
+    				height: 30px;
+	    			font-family: Georgia, serif;
+	    			color: rgba(255, 255, 255, 1);
+	    			font-size: 14px;
+	    			line-height: 5px;
+			}
+
+			.quicklinks button:hover 
+			{
+    				background-color: rgba(244, 66, 66, 0.5);
+					color:rgb(204,204,0);
+			}
+
+			.quicklinks span
+			{
+					float: left;
+					font-family: Georgia, serif;
+					color: rgba(255, 255, 255, 1);
+					line-height: 30px;
+					margin-left: 15px;
+					font-size: 15px;
+			}			
+			
+			* 
+			{
+    				box-sizing: border-box;
+			}
+			body 
+			{
+  					margin: 0;
+			}
+			/* Style the header */
+			.header 
+			{
+    				background-color: rgba(255,0,0,0.9);
+					height:150px;
+			}
+
+			#logo
+			{
+					margin-left: 220px;
+			}
+
+
+			/* Style the top navigation bar */
+			.topnav 
+			{
+    				overflow: hidden;
+	    			background-color: rgba(255,0,0,0.4);
+					height:50px;
+			}
+			/* Style the topnav links */
+			.topnav a 
+			{
+    				float: left;
+	    			display: block;
+    				color: #f2f2f2;
+    				text-align: center;
+    				padding: 14px 16px;
+	    			text-decoration: none;
+	    			font-family: "Georgia", serif;
+
+			}
+			/* Change color on hover */
+			.topnav a:hover 
+			{
+    				background-color: rgb(255,0,0,0.7);
+				opacity:1;
+    				color: rgb(204,204,0);
+			}
+
+			#clock
+			{
+					float: right;
+					font-family: "Trebuchet MS", sans-serif;
+					margin-right: 30px;
+					color: rgba(255, 255, 255, 0.9);
+			}
+
+			/* Side navigation bar */
+			#mySidenav a 
+			{
+    				position: absolute;
+    				left: -97px;
+    				transition: 0.3s;
+    				padding: 15px;
+    				width: 150px;
+    				text-decoration: none;
+    				font-size: 20px;
+    				color: white;
+    				border-radius: 0 5px 5px 0;
+			}
+
+			#mySidenav a:hover 
+			{
+    				left: 0;
+					color:rgb(204,204,0);
+					background-color: rgba(255,0,0,0.7);
+			}
+			
+			#termsofservice
+			{
+    				top: 650px;
+    				background-color: rgba(255,0,0,0.5);
+			}
+
+			/* Set a style for all buttons */
+			button 
+			{
+    				/*background-color: #4CAF50;*/
+    				background-color: rgba(255,0,0,0.8);
+					color: white;
+    				padding: 14px 20px;
+    				margin: 8px 0;
+    				border: none;
+    				cursor: pointer;
+    				width: 100%;
+    				opacity: 0.9;
+			}
+
+			button:hover 
+			{
+					background-color: rgba(255,0,0,0.9);
+					/*color: rgb(204,204,0);*/
+			}
+
+			#but01
+			{
+					background-color: rgba(255,0,0,0.5);
+			}
+
+			#but01:hover 
+			{
+					background-color: rgba(255,0,0,0.9);
+					color:rgb(204,204,0);
+			}
+
+			/* Add padding to container elements */
+			.container 
+			{
+    				padding: 16px;
+    				background-color: rgba(255, 255, 255, 0.3);
+			}
+
+			#footer
+			{
+					color: white;
+					font-family: "Trebuchet MS", sans-serif;
+					padding-top: 5px;
+			}
+
+			/* The Modal (background) */
+			.modal 
+			{
+   					display: none; /* Hidden by default */
+    				position: fixed; /* Stay in place */
+    				z-index: 1; /* Sit on top */
+    				left: 0;
+    				top: 0;
+    				width: 100%; /* Full width */
+    				height: 100%; /* Full height */
+    				overflow: auto; /* Enable scroll if needed */
+    				background-color: rgba(0, 0, 0, 0.8);
+    				padding-top: 50px;
+			}
+
+			/* Modal Content/Box */
+			.modal-content 
+			{
+    				background-color: #fefefe;
+    				margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    				border: 1px solid #888;
+    				width: 50%; /* Could be more or less, depending on screen size */
+			}
+
+			.modal-content button:hover
+			{
+				color:rgb(204,204,0);
+				backgroud-color:rgb(255,0,0,0.7);
+			}
+
+			/* The Close Button (x) */
+			.close 
+			{
+    				position: absolute;
+    				right: 35px;
+    				top: 15px;
+    				font-size: 40px;
+    				font-weight: bold;
+    				color: #f1f1f1;
+			}
+
+			.close:hover,
+			.close:focus 
+			{
+    				color: #f44336;
+    				cursor: pointer;
+			}
+
+			#togg2lnk
+			{
+				cursor: pointer;
+				font-size: 12px;
+				font-style: italic;
+			}
+
+			input[type=text], input[type=password] 
+			{
+    				width: 75%;
+    				padding: 15px;
+    				margin: 5px 0 22px 0;
+    				display: inline-block;
+    				border: none;
+    				background: #f1f1f1;
+			}
+
+			input[type=text]:focus, input[type=password]:focus 
+			{
+    				background-color: #ddd;
+    				outline: none;
+			}
+
+			hr 
+			{
+    				border: 1px solid #f1f1f1;
+    				margin-bottom: 25px;
+			}
+
+			#profilelink
+			{
+				width: auto;
+				padding-left: 3px;
+				padding-right: 3px;
+				color: rgba(255, 255, 255, 1);
+				font-size: 16px;
+			}
+
+			#profilelink:hover
+			{
+				color: rgb(204, 204, 0);
+			}
+
+			#footerdiv
+			{
+				width: 100%;
+				position: sticky;
+				bottom: 0px;
+			}
